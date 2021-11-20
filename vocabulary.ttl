@@ -13,15 +13,11 @@
   pav:createdOn "2021-07-09T11:00:00+00:00"@en;
   pav:lastUpdatedOn "2021-08-13T22:00:00+00:00"@en;
   pav:version "1.1.0"@en;
-  skos:hasTopConcept <http://purl.org/zonmw/generic/>, gen:TestTerm1;
+  skos:hasTopConcept gen:TestTerm12;
   skos:prefLabel "ZonMW Generic Vocabulary"@en .
 
-gen:TestTerm1 a skos:Concept;
+gen:TestTerm12 a skos:Concept;
   skos:definition "Some test term"@en;
   skos:inScheme <http://purl.org/zonmw/generic>;
-  skos:prefLabel "TestTerm1"@en;
-  skos:topConceptOf <http://purl.org/zonmw/generic> .
-
-<http://purl.org/zonmw/generic/> a skos:Concept;
-  skos:inScheme <http://purl.org/zonmw/generic>;
+  skos:prefLabel "TestTerm12"@en;
   skos:topConceptOf <http://purl.org/zonmw/generic> .

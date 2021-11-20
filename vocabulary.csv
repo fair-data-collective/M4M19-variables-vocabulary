@@ -19,39 +19,4 @@ pav:lastUpdatedOn,2021-08-13T22:00:00+00:00
 
 
 Identifier,skos:prefLabel@en,"skos:altLabel(separator="","")",skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")",skos:editorialNote@en,"dct:creator(separator="","")","dct:contributor(separator="","")"
-gen:TestTerm1,TestTerm1,,Some test term
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
-gen:
+gen:TestTerm12,TestTerm12,,Some test term
