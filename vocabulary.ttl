@@ -8,6 +8,7 @@
   dct:creator <https://orcid.org/0000-0002-9381-9693>;
   dct:description "Subjects ..."@en;
   dct:rights <https://spdx.org/licenses/CC0-1.0>;
+  dct:title "NICEST-2 controlled vocabulary of subjects"@en;
   pav:createdOn "2021-11-12T12:00+02:00"@en;
   pav:lastUpdatedOn "2021-11-12T12:00+02:00"@en;
   pav:version "0.1.0"@en;
