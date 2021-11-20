@@ -1,14 +1,14 @@
 <img src="https://www.eosc-nordic.eu/content/uploads/2019/10/EOSC_Nordic_logo_RGB@3x.png" alt="incentive logo" width="100"/> 
 
-[![CI](https://github.com/fair-data-collective/M4M19-subjects-vocabulary/workflows/Sheet2RDF/badge.svg)](https://github.com/fair-data-collective/M4M19-subjects-vocabulary/actions?query=workflow%3ASheet2RDF)
+[![CI](https://github.com/fair-data-collective/M4M19-variables-vocabulary/workflows/Sheet2RDF/badge.svg)](https://github.com/fair-data-collective/M4M19-variables-vocabulary/actions?query=workflow%3ASheet2RDF)
 
-# [NICEST-2 controlled vocabulary of subjects](http://purl.org/m4m19/subjects/)
-Controlled vocabularies allow an accurate and controlled approach in describing physical and digital assets (e.g., data). One of such controlled vocabulary is **NICEST-2 Subjects**. This controlled vocabulary is a result of Metadata 4 Machine (M4M) Workshop 19 (M4M.19 funded by [EOSC-Nordic](https://www.eosc-nordic.eu/about-eosc-nordic/)
+# [NICEST-2 controlled vocabulary of variables](http://purl.org/m4m19/variables/)
+Controlled vocabularies allow an accurate and controlled approach in describing physical and digital assets (e.g., data). One of such controlled vocabulary is **NICEST-2 Variables**. This controlled vocabulary is a result of Metadata 4 Machine (M4M) Workshop 19 (M4M.19 funded by [EOSC-Nordic](https://www.eosc-nordic.eu/about-eosc-nordic/)
 ) provided to [the NICEST-2 project](https://neic.no/nicest2/). 
 
 `sheet2rdf` and `OntoStack`, developed by [FAIR Data Collective](https://dk.linkedin.com/company/fair-data-collective), are used to build and serve **NICEST-2 Subjects**, while [PURL](https://archive.org/services/purl/) will be used to persist identifiers for the vocabulary terms and properties:
 
-   http://purl.org/m4m19/subjects/
+   http://purl.org/m4m19/variables/
 
 
 # Tooling
@@ -39,8 +39,8 @@ In case you want to use **sheet2rdf** in your own work you need to:
 | DB_USER | user name of Jena Fuseki user account that has privilages to PUT RDF vocabulary to the database | ******** |
 | DB_PASS | password of for the above account Jena Fuseki account | ******** |
 | FILE_NAME | file name that will be used when converting Google sheet to `.ttl` (RDF), `.xlsx`, and `.csv` files | vocabulary |
-| GRAPH | graph in the database under which the above RDF vocabulary should be stored | http://purl.org/m4m19/subjects/ |
-| SHEET_ID | unique ID of the sheet that will be fetched from Google drive | [1FNxmrZz8yoLL6oN-h4fPYLayNFws9B95Y8UO-LXIvXU](https://docs.google.com/spreadsheets/d/1FNxmrZz8yoLL6oN-h4fPYLayNFws9B95Y8UO-LXIvXU/edit#gid=1198865354) |
+| GRAPH | graph in the database under which the above RDF vocabulary should be stored | http://purl.org/m4m19/variables/ |
+| SHEET_ID | unique ID of the sheet that will be fetched from Google drive | [1ac6QSbhk8kuCvxR-ueTzaA74xJYxiPq71Uobs7qv2aI](https://docs.google.com/spreadsheets/d/1ac6QSbhk8kuCvxR-ueTzaA74xJYxiPq71Uobs7qv2aI/edit#gid=1198865354) |
 | SPARQL_ENDPOINT | endpoint to which RDF vocabulary is PUT | ******** |
 | STORAGE | access token to Google Drive hosting Google sheet with controlled terms definitions, content of client_secret.json | ******** |
 | CLIENT | configuration for client (i.e., sheetrdf) that is fetching Google sheet, content of storage.json | ******** |
