@@ -18,113 +18,40 @@ pav:lastUpdatedOn,2021-08-13T22:00:00+00:00
 
 
 
-
-
-
-
-Identifier,skos:prefLabel@en,skos:prefLabel@nl,"skos:altLabel(separator="","")",skos:definition@en,skos:definition@nl,"dct:source(separator="","")","skos:broader(separator="","")","skos:closeMatch(separator="","")","skos:exactMatch(separator="","")","skos:relatedMatch(separator="","")",owl:deprecated^^xsd:boolean,dct:isReplacedBy,skos:editorialNote@en,"dct:creator(separator="","")","dct:contributor(separator="","")",iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")"
-gen:10000,deprecated,,,This is a set of controlled terms which are deprecated.,,,,, 
-gen:10001,focus area,,,ZonMw specific focus areas
-gen:10002,subject
-gen:10003,temporal scope
-gen:10004,population group
-gen:10005,data
-gen:10006,other,,,Other forms of resources that are not easily categorized or defined,,,gen:10099
-gen:10007,biomaterial
-gen:10008,organism,,,"A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.",,http://purl.obolibrary.org/obo/OBI_0100026,gen:10007,,http://purl.obolibrary.org/obo/OBI_0100026
-gen:10009,specimen,,,"A part of a thing, or of several things, taken to demonstrate or to determine the character of the whole, e.g. a substance, or portion of material obtained for use in testing, examination, or study; particularly, a preparation of tissue or bodily fluid taken for examination or diagnosis.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C19157,gen:10007,,"https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C19157,
-http://purl.bioontology.org/ontology/SNOMEDCT/123038009"
-gen:10010,substance,,,"Any matter of defined composition that has discrete existence, whose origin may be biological, mineral or chemical.",,https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=21.02d&ns=ncit&code=C45306&key=n1938058024&b=1&n=null,gen:10007
-gen:10011,macromolecule,,,,,,gen:10007
-gen:10013,service
-gen:10014,standard 
-gen:10015,metadata standard,,,,,,gen:10014
-gen:10016,semantic artefact,,,"is the overarching name for any set of fixed denotations that are used to describe something with the goal to reduce ambiguity and facilitate machine interoperability. It can range from a simple controlled vocabulary (a simple list of terms) to a complex ontology (formal definitions of terms and their relations semantically expressed in a machine-readable way). This term may also include taxonomies, thesauri, conceptual models or any other kinds of knowledge organization sources.",,,gen:10014
-gen:10017,technical standard,,,,,,gen:10014
-gen:10018,conceptual model,,,,,,gen:10014
-gen:10019,guideline,,,,,,gen:10014
-gen:10020,framework,,,,,,gen:10014
-gen:10021,variable,,,"A description of something observed or derived, minimally consisting of  an ObjectOfInterest and its Property.",,https://w3id.org/iadopt/ont/iadopt/variable,,,https://w3id.org/iadopt/ont/iadopt/variable
-gen:10022,property,,,A type of a characteristic of the ObjectOfInterest.,,https://w3id.org/iadopt/ont/iadopt/property,,,https://w3id.org/iadopt/ont/iadopt/property
-gen:10023,constraint,,,A Constraint limits the scope of the observation and confines the context to a particular state. It describes properties of the involved entities that are relevant to the particular observation.,,https://w3id.org/iadopt/ont/iadopt/constraint,,,https://w3id.org/iadopt/ont/iadopt/constraint
-gen:10024,microorganism,,,,,,gen:10008
-gen:10025,animal,,,,,,gen:10008
-gen:10026,disease
-gen:10027,institution,,,,,, 
-gen:10028,Academic Medical Center - Amsterdam UMC,,,,,,gen:10027
-gen:10029,Amsterdam Health and Technology Institute - AHTI,,,,,,gen:10027
-gen:10030,Delft University of Technology,,,,,,gen:10027
-gen:10031,Eindhoven University of Technology,,,,,,gen:10027
-gen:10032,Erasmus Centrum voor Zorgbestuur,,,,,,gen:10027
-gen:10033,Erasmus MC,,,,,,gen:10027
-gen:10034,Erasmus University Rotterdam,,,,,,gen:10027
-gen:10035,Expertisecentrum Nederlands,,,,,,gen:10027
-gen:10036,Federal University of Rio de Janeiro,,,,,,gen:10027
-gen:10037,GGD Amsterdam - Public Health Service of Amsterdam,,,,,,gen:10027
-gen:10038,GGD Zuid Holland Zuid,,,,,,gen:10027
-gen:10039,GO FAIR Foundation,,,,,,gen:10027
-gen:10040,Hogeschool Leiden - University of Applied Sciences Leiden,,,,,,gen:10027
-gen:10041,Hogeschool van Amsterdam - Amsterdam University of Applied Sciences,,,,,,gen:10027
-gen:10042,IKNL - Netherlands Comprehensive Cancer Organisation,,,,,,gen:10027
-gen:10043,Leiden University,,,,,,gen:10027
-gen:10044,Leiden University Medical Center,,,,,,gen:10027
-gen:10045,Maastricht University,,,,,,gen:10027
-gen:10046,Maastricht University Medical Centre,,,,,,gen:10027
-gen:10047,Netherlands Comprehensive Cancer Organisation,,,,,,gen:10027
-gen:10048,Netherlands Heart Institute,,,,,,gen:10027
-gen:10049,NIVEL - Netherlands Institute for Health Services Research,,,,,,gen:10027
-gen:10050,NSCR - Netherlands Institute for the Study of Crime and Law Enforcement ,,,,,,gen:10027
-gen:10051,Public Health Service of Amsterdam,,,,,,gen:10027
-gen:10052,Public Procurement Research Centre - PPRC,,,,,,gen:10027
-gen:10053,Radboud University Nijmegen,,,,,,gen:10027
-gen:10054,Radboud University Nijmegen Medical Centre,,,,,,gen:10027
-gen:10055,Reade Research BV,,,,,,gen:10027
-gen:10056,RIVM - National Institute for Public Health and the Environment,,,,,,gen:10027
-gen:10057,Sanquin,,,,,,gen:10027
-gen:10058,Saxion University of Applied Sciences,,,,,,gen:10027
-gen:10059,SEO Economisch Onderzoek,,,,,,gen:10027
-gen:10060,Spaarne Gasthuis - Spaarne Ziekenhuis,,,,,,gen:10027
-gen:10061,Tilburg University,,,,,,gen:10027
-gen:10062,TNO - Netherlands Organisation for Applied Scientific Research,,,,,,gen:10027
-gen:10063,University Medical Center Groningen,,,,,,gen:10027
-gen:10064,University Medical Center Utrecht,,,,,,gen:10027
-gen:10065,University of Amsterdam,,,,,,gen:10027
-gen:10066,University of Groningen,,,,,,gen:10027
-gen:10067,University of Humanistic Studies,,,,,,gen:10027
-gen:10068,University of Twente,,,,,,gen:10027
-gen:10069,Utrecht University,,,,,,gen:10027
-gen:10070,Veiligheids- en Gezondheidsregio Gelderland-Midden,,,,,,gen:10027
-gen:10071,VU Amsterdam,,,,,,gen:10027
-gen:10072,VU University Medical Center,,,,,,gen:10027
-gen:10073,Wageningen University & Research,,,,,,gen:10027
-gen:10074,ZonMw - Netherlands Organisation for Health Research and Development,,,,,,"gen:10027, gen:10102"
-gen:10075,contributor type,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf
-gen:10076,data collector,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
-gen:10077,data manager,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
-gen:10078,data curator,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
-gen:10079,sponsor,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
-gen:10080,distributor,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
-gen:10081,project leader,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
-gen:10082,project manager,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
-gen:10083,project member,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
-gen:10084,reseacher,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
-gen:10085,editor,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
-gen:10086,rights holder,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
-gen:10087,supervisor,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
-gen:10088,work package leader,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
-gen:10089,contact person,,,,,https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf,gen:10075
-gen:10090,bacterium,,,"Unicellular, prokaryotic organisms that reproduce by cell division and usually have cell walls; can be shaped like spheres, rods or spirals and can be found in virtually any environment.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C14187,gen:10024,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C14187
-gen:10091,prion,,,,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C28176,gen:10024,,http://purl.obolibrary.org/obo/NCIT_C28176
-gen:10092,virus,,,"An infectious agent which consists of two parts, genetic material and a protein coat. These organisms lack independent metabolism, and they must infect the cells of other types of organisms to reproduce. Most viruses are capable of passing through fine filters that retain bacteria, and are not visible through a light microscope.",,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C14283,gen:10024,,https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C14283
-gen:10093,fungus,,,,,,gen:10024
-gen:10094,none,,,,,,gen:10099
-gen:10095,human disease,,,,,,gen:10026
-gen:10096,animal disease,,,,,,gen:10026
-gen:10097,plant disease,,,,,,gen:10026
-gen:10098,plant,,,,,,gen:10008
-gen:10099,generic answer options
-gen:10100,yes,,,,,,gen:10099
-gen:10101,no,,,,,,gen:10099
-gen:10102,funder institution,,,,,,gen:10027
-gen:10103,unknown,,,,,,gen:10099
-gen:10104,protozoa,,,,,,gen:10024
+Identifier,skos:prefLabel@en,"skos:altLabel(separator="","")",skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")",skos:editorialNote@en,"dct:creator(separator="","")","dct:contributor(separator="","")"
+gen:TestTerm1,TestTerm1,,Some test term
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
+gen:
