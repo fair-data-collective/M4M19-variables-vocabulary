@@ -1,11 +1,8 @@
 ConceptScheme URI,http://purl.org/m4m19/subjects,Main GUPRI (i.e. PID) under which all terms are defined. Preference is to use PURLs or W3IDs as they provide permanent resolvable identifiers.
-"Prefixes for controlled vocabularies, schema and ontologies"
 PREFIX,nicest-2-subjects,http://purl.org/m4m19/subjects/,Prefix for our controlled vocabulary since it is rather tedious to write long URLs all the time
 PREFIX,skos,http://www.w3.org/2004/02/skos/core#,Prefix for SKOS Ontology. This ontology is which our base for defining terms.
 PREFIX,pav,http://purl.org/pav/ ,"Prefix for Provenance, Authoring and Versioning Ontology which properties such as version and createdOn we will use to describe our controlled vocabulary"
 PREFIX,dct,http://purl.org/dc/terms/ ,"Prefix for Dublin Core (Terms) Ontology which properties such as title, description, rights, source, etc. we will use to describe our controlled vocabulary as well to define its terms"
-Metadata about vocabulary
-
 dct:title,NICEST-2 controlled vocabulary of subjects,Title of the vocabulary
 dct:description,Subjects ...,Description of the controlled vocabulary
 dct:creator,https://orcid.org/0000-0002-9381-9693,"An ORCID ID of the vocabulary creator, repeat this row as needed."
@@ -13,8 +10,6 @@ dct:rights,https://spdx.org/licenses/CC0-1.0,License under which the vocabulary 
 pav:version,0.1.0,Vocabulary version
 pav:createdOn,2021-11-12T12:00+02:00,Date when vocabulary was initially created
 pav:lastUpdatedOn,2021-11-12T12:00+02:00,Date of the last vocabulary update
-Definition of terms
-
 Identifier,skos:prefLabel@en,"skos:altLabel(separator="","")",skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")",skos:editorialNote@en,"dct:creator(separator="","")","dct:contributor(separator="","")"
 nicest-2-subjects:TestTerm,TestTerm,,Some test term
 nicest-2-subjects:
