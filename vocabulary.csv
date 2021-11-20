@@ -1,4 +1,4 @@
-ConceptScheme URI,http://purl.org/m4m19/subjects/,Main GUPRI (i.e. PID) under which all terms are defined. Preference is to use PURLs or W3IDs as they provide permanent resolvable identifiers.
+ConceptScheme URI,http://purl.org/m4m19/subjects,Main GUPRI (i.e. PID) under which all terms are defined. Preference is to use PURLs or W3IDs as they provide permanent resolvable identifiers.
 "Prefixes for controlled vocabularies, schema and ontologies"
 PREFIX,nicest-2-subjects,http://purl.org/m4m19/subjects/,Prefix for our controlled vocabulary since it is rather tedious to write long URLs all the time
 PREFIX,skos,http://www.w3.org/2004/02/skos/core#,Prefix for SKOS Ontology. This ontology is which our base for defining terms.

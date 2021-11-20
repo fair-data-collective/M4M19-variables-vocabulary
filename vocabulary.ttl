@@ -4,7 +4,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://purl.org/m4m19/subjects/> a skos:Concept, skos:ConceptScheme;
+<http://purl.org/m4m19/subjects> a skos:ConceptScheme;
   dct:creator <https://orcid.org/0000-0002-9381-9693>;
   dct:description "Subjects ..."@en;
   dct:rights <https://spdx.org/licenses/CC0-1.0>;
@@ -12,12 +12,14 @@
   pav:createdOn "2021-11-12T12:00+02:00"@en;
   pav:lastUpdatedOn "2021-11-12T12:00+02:00"@en;
   pav:version "0.1.0"@en;
-  skos:hasTopConcept <http://purl.org/m4m19/subjects/>, nicest-2-subjects:TestTerm;
-  skos:inScheme <http://purl.org/m4m19/subjects/>;
-  skos:topConceptOf <http://purl.org/m4m19/subjects/> .
+  skos:hasTopConcept <http://purl.org/m4m19/subjects/>, nicest-2-subjects:TestTerm .
 
 nicest-2-subjects:TestTerm a skos:Concept;
   skos:definition "Some test term"@en;
-  skos:inScheme <http://purl.org/m4m19/subjects/>;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
   skos:prefLabel "TestTerm"@en;
-  skos:topConceptOf <http://purl.org/m4m19/subjects/> .
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+<http://purl.org/m4m19/subjects/> a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
