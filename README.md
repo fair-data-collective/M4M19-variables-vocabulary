@@ -70,5 +70,5 @@ Some of OntoStack micro-services are:
 Currently three instances of OntoStack are available:
 
 - Departamental instance of [DTU Wind Energy](https://www.vindenergi.dtu.dk/english/): http://data.windenergy.dtu.dk/ontologies
-- National (Danish) instance run by [DeiC](https://deic.dk/): http://ontology.deic.dk/
-- International instance run by [FAIR Data Collective](http://fairdatacollective.org/): http://vocab.fairdatacollective.org
+- National (Danish) instance ran by [DeiC](https://deic.dk/): http://ontology.deic.dk/
+- International instance ran by [FAIR Data Collective](http://fairdatacollective.org/): http://vocab.fairdatacollective.org
