@@ -82,18 +82,18 @@ nicest-2-variables:10007 a skos:Concept;
 nicest-2-variables:10008 a skos:Concept;
   skos:definition "zonal wind (positive in a eastward direction)"@en;
   skos:inScheme <http://purl.org/m4m19/variables>;
-  skos:prefLabel "zonal/eastward wind"@en;
+  skos:prefLabel "zonal-eastward wind"@en;
   skos:topConceptOf <http://purl.org/m4m19/variables> .
 
 nicest-2-variables:10009 a skos:Concept;
   skos:definition "northward component of the near surface wind"@en;
   skos:inScheme <http://purl.org/m4m19/variables>;
-  skos:prefLabel "meridional/northward wind"@en;
+  skos:prefLabel "meridional-northward wind"@en;
   skos:topConceptOf <http://purl.org/m4m19/variables> .
 
 nicest-2-variables:10010 a skos:Concept;
   skos:inScheme <http://purl.org/m4m19/variables>;
-  skos:prefLabel "vertical velocity/wind"@en;
+  skos:prefLabel "vertical velocity-wind"@en;
   skos:topConceptOf <http://purl.org/m4m19/variables> .
 
 nicest-2-variables:10011 a skos:Concept;
