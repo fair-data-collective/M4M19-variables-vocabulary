@@ -1,8 +1,25 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix iop: <https://w3id.org/iadopt/ont/> .
 @prefix nicest-2-variables: <http://purl.org/m4m19/variables/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://purl.org/m4m19/variables> a skos:ConceptScheme;
   dct:creator <https://orcid.org/0000-0002-9381-9693>;
@@ -12,14 +29,120 @@
   pav:createdOn "2021-11-12T12:00+02:00"@en;
   pav:lastUpdatedOn "2021-11-12T12:00+02:00"@en;
   pav:version "0.1.0"@en;
-  skos:hasTopConcept <http://purl.org/m4m19/variables/>, nicest-2-variables:testvariable .
+  skos:hasTopConcept nicest-2-variables:10000, nicest-2-variables:10001, nicest-2-variables:10002,
+    nicest-2-variables:10003, nicest-2-variables:10004, nicest-2-variables:10005, nicest-2-variables:10006,
+    nicest-2-variables:10007, nicest-2-variables:10008, nicest-2-variables:10009, nicest-2-variables:10010,
+    nicest-2-variables:10011, nicest-2-variables:10012, nicest-2-variables:10013, nicest-2-variables:10014,
+    nicest-2-variables:10015, nicest-2-variables:10016, nicest-2-variables:10017, nicest-2-variables:10018,
+    nicest-2-variables:10019, nicest-2-variables:10020 .
 
-nicest-2-variables:testvariable a skos:Concept;
-  skos:definition "This is a variable term used for setting up sheet2rdf workflow."@en;
+nicest-2-variables:10000 a skos:Concept;
+  skos:altLabel "runoff"@en, "streamflow"@en;
+  skos:definition "liquid water which drains from land"@en;
   skos:inScheme <http://purl.org/m4m19/variables>;
-  skos:prefLabel "test variable"@en;
+  skos:prefLabel "discharge"@en;
   skos:topConceptOf <http://purl.org/m4m19/variables> .
 
-<http://purl.org/m4m19/variables/> a skos:Concept;
+nicest-2-variables:10001 a skos:Concept;
   skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "aerosol optical thickness"@en;
+  skos:topConceptOf <http://purl.org/m4m19/variables> .
+
+nicest-2-variables:10002 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "fine mode optical thickness"@en;
+  skos:topConceptOf <http://purl.org/m4m19/variables> .
+
+nicest-2-variables:10003 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "coarse mode optical thickness"@en;
+  skos:topConceptOf <http://purl.org/m4m19/variables> .
+
+nicest-2-variables:10004 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "precipitation"@en;
+  skos:topConceptOf <http://purl.org/m4m19/variables> .
+
+nicest-2-variables:10005 a skos:Concept;
+  skos:definition "indicates a present state of absolute humidity relative to a maximum humidity given the same temperature"@en;
+  skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "relative humidity"@en;
+  skos:topConceptOf <http://purl.org/m4m19/variables> .
+
+nicest-2-variables:10006 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "global radiation"@en;
+  skos:topConceptOf <http://purl.org/m4m19/variables> .
+
+nicest-2-variables:10007 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "upper-air temperature"@en;
+  skos:topConceptOf <http://purl.org/m4m19/variables> .
+
+nicest-2-variables:10008 a skos:Concept;
+  skos:definition "zonal wind (positive in a eastward direction)"@en;
+  skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "zonal/eastward wind"@en;
+  skos:topConceptOf <http://purl.org/m4m19/variables> .
+
+nicest-2-variables:10009 a skos:Concept;
+  skos:definition "northward component of the near surface wind"@en;
+  skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "meridional/northward wind"@en;
+  skos:topConceptOf <http://purl.org/m4m19/variables> .
+
+nicest-2-variables:10010 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "vertical velocity/wind"@en;
+  skos:topConceptOf <http://purl.org/m4m19/variables> .
+
+nicest-2-variables:10011 a skos:Concept;
+  skos:definition "actual (floe) thickness of sea ice"@en;
+  skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "sea ice thickness"@en;
+  skos:topConceptOf <http://purl.org/m4m19/variables> .
+
+nicest-2-variables:10012 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "cloud fraction"@en;
+  skos:topConceptOf <http://purl.org/m4m19/variables> .
+
+nicest-2-variables:10013 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "ice fraction"@en;
+  skos:topConceptOf <http://purl.org/m4m19/variables> .
+
+nicest-2-variables:10014 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "atmosphere mass content of cloud liquid water"@en;
+  skos:topConceptOf <http://purl.org/m4m19/variables> .
+
+nicest-2-variables:10015 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "atmosphere mass content of cloud ice"@en;
+  skos:topConceptOf <http://purl.org/m4m19/variables> .
+
+nicest-2-variables:10016 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "ocean mixed layer depth"@en;
+  skos:topConceptOf <http://purl.org/m4m19/variables> .
+
+nicest-2-variables:10017 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "number of processor-hour per simulated year"@en;
+  skos:topConceptOf <http://purl.org/m4m19/variables> .
+
+nicest-2-variables:10018 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "number of simulated year per wall-clock day"@en;
+  skos:topConceptOf <http://purl.org/m4m19/variables> .
+
+nicest-2-variables:10019 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "number of computation seconds per model-day"@en;
+  skos:topConceptOf <http://purl.org/m4m19/variables> .
+
+nicest-2-variables:10020 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/variables>;
+  skos:prefLabel "dissolved inorganic carbon"@en;
   skos:topConceptOf <http://purl.org/m4m19/variables> .

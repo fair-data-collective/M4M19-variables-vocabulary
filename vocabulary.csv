@@ -19,26 +19,24 @@ pav:lastUpdatedOn,2021-11-12T12:00+02:00,Date of the last vocabulary update
 Definition of terms
 
 Identifier,skos:prefLabel@en,skos:definition@en,"skos:altLabel(separator="","")","dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")",iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")",skos:editorialNote@en,"dct:contributor(separator="","")","dct:contributor(separator="","")"
-nicest-2-variables:testvariable,test variable,This is a variable term used for setting up sheet2rdf workflow.
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
-nicest-2-variables:
+nicest-2-variables:10000,discharge,liquid water which drains from land,"streamflow, runoff"
+nicest-2-variables:10001,aerosol optical thickness
+nicest-2-variables:10002,fine mode optical thickness
+nicest-2-variables:10003,coarse mode optical thickness
+nicest-2-variables:10004,precipitation
+nicest-2-variables:10005,relative humidity,indicates a present state of absolute humidity relative to a maximum humidity given the same temperature
+nicest-2-variables:10006,global radiation
+nicest-2-variables:10007,upper-air temperature
+nicest-2-variables:10008,zonal/eastward wind,zonal wind (positive in a eastward direction)
+nicest-2-variables:10009,meridional/northward wind,northward component of the near surface wind
+nicest-2-variables:10010,vertical velocity/wind
+nicest-2-variables:10011,sea ice thickness,actual (floe) thickness of sea ice
+nicest-2-variables:10012,cloud fraction
+nicest-2-variables:10013,ice fraction
+nicest-2-variables:10014,atmosphere mass content of cloud liquid water
+nicest-2-variables:10015,atmosphere mass content of cloud ice
+nicest-2-variables:10016,ocean mixed layer depth
+nicest-2-variables:10017,number of processor-hour per simulated year
+nicest-2-variables:10018,number of simulated year per wall-clock day
+nicest-2-variables:10019,number of computation seconds per model-day
+nicest-2-variables:10020,dissolved inorganic carbon
